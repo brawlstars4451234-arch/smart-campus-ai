@@ -1,0 +1,1 @@
+document.getElementById("loginForm").addEventListener("submit",function(e){e.preventDefault();const name=document.getElementById("userName").value.trim()||"Оператор";const role=document.getElementById("userRole").value;localStorage.setItem("sc_user",JSON.stringify({name,role}));location.href="dashboard.html";});
