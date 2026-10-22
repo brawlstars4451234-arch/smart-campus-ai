@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Smart Campus — Вход</title><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="login-body">
+  <main class="login-wrap">
+    <section class="login-art">
+      <div class="brand brand-large"><span class="brand-mark">S</span><span>smart<span class="brand-light">campus</span></span></div>
+      <div class="art-copy"><span class="eyebrow">УМНЫЙ КАМПУС | DEMO</span><h1>Кампус, который<br><em>понимает</em> себя.</h1><p>Все помещения, устройства и энергия — в одной понятной системе.</p></div>
+      <div class="art-bottom"><div class="signal"><span></span><span></span><span></span><span></span><span></span></div><span>СИСТЕМА МОНИТОРИНГА · 2026</span></div>
+      <div class="art-orb orb-one"></div><div class="art-orb orb-two"></div>
+    </section>
+    <section class="login-panel">
+      <div class="login-top"><span class="eyebrow">РАБОЧЕЕ ПРОСТРАНСТВО</span><span class="status-pill"><i></i> Все системы работают</span></div>
+      <div class="login-form-wrap"><div class="login-icon">↗</div><h2>С возвращением!</h2><p class="muted">Войдите в демонстрационную панель кампуса.</p>
+        <form id="loginForm">
+          <label for="userName">Имя пользователя</label><input id="userName" value="Темирлан Эшимбаев" autocomplete="username" required>
+          <label for="userRole">Ваша роль</label><div class="select-wrap"><select id="userRole"><option>Администратор</option><option>Инжинер</option><option selected>Оператор</option></select><span>⌄</span></div>
+          <button class="btn btn-primary btn-wide" type="submit">Открыть панель <span>→</span></button>
+        </form>
+        <div class="demo-note"><span>✦</span><div><b>Демонстрационный режим</b><p>Можно использовать любые имена и роль. Данные хранятся только в этом браузере.</p></div></div>
+      </div>
+      <div class="login-footer"><span>SMART CAMPUS AI</span><span>Учебный прототип · v1.0</span></div>
+    </section>
+  </main>
+  <script src="assets/js/data.js"></script><script src="assets/js/storage.js"></script><script src="assets/js/login.js"></script>
+</body></html>
